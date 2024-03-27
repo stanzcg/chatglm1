@@ -24,4 +24,4 @@ def store_chroma(docs,embeddings,persist_directory='VectorStore'):
     db=Chroma.from_documents(docs,embeddings,persist_directory=persist_directory)
     db.persist()
     return db
-
+##transformers=4.27.1
